@@ -1,12 +1,13 @@
 import styles from './navStyle.module.css'
+import Image from 'next/image'
 
 const Nav = () =>{
     return (
        
       <div>          
-        <div className={styles.headerfixed}>
+        <div className={styles.nav}>
   
-        <img className="logo" src="../../images/logo.png" width="20%" ></img>
+        <img className="logo" src="images/logo.png" width="20%" />
   
           <nav>
             <a className="selected" href="index.php">INICIO</a>
