@@ -3,3 +3,138 @@
   align-items: center;
   justify-content: space-around;
 }
+
+
+
+.headerfixed {
+	background-color:#ffffff;
+	box-shadow:0 0px 0px #ccc;
+	padding: 20px 40px;
+	height: 80px;
+	color: #000000;
+	box-sizing: border-box;
+	top:-100px;
+
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
+}
+
+.headerfixed  {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;  
+}
+
+/*	The header placeholder. It is displayed when the header is fixed to the top of the
+	browser window, in order to prevent the content of the page from jumping up. */
+
+.header-fixed-placeholder{
+	height: 80px;
+	display: none;
+}
+
+/* Logo */
+
+.headerfixed h1 {
+	float: left;
+	font: normal 2.05vw Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.headerfixed h1 span {
+	color: #5383d3;
+}
+
+/* The navigation links */
+
+.headerfixed a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.headerfixed nav {
+	font:0.95vw Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+}
+
+.headerfixed nav a{
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #000000;
+  font-weight: bold;
+	opacity: 0.9;
+}
+
+.headerfixed nav a:hover{
+	opacity: 1;
+}
+
+.headerfixed nav a.selected {
+	color: #E3AB84;  
+	pointer-events: none;
+	opacity: 1;
+}
+
+/* Fixed version of the header */
+
+body.fixed .headerfixed {
+	padding: 20px 40px;
+	height: 65px;
+	position: fixed;  
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 210;
+}
+
+body.fixed .header-fixed-placeholder {
+	display: block;
+}
+
+body.fixed .headerfixed h1 {
+	font-size: 1.76vw;
+	line-height: 30px;
+}
+
+body.fixed .headerfixed nav {
+	line-height: 28px;
+	font-size: 0.95vw;
+}
+
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+	.headerfixed {
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.headerfixed h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.headerfixed nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.headerfixed nav a {
+		font-size: 0.95vw;
+	}
+
+	body.fixed .headerfixed {
+		display: none;
+	}
+
+}
+
+

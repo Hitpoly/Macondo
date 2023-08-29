@@ -4,12 +4,12 @@ import Image from 'next/image'
 const Nav = () =>{
     return (
        
-      <div>          
+      <div className={styles.headerfixed}>          
         <div className={styles.nav}>
   
         <img className="logo" src="images/logo.png" width="20%" />
   
-          <nav>
+          <nav >
             <a className="selected" href="index.php">INICIO</a>
             <a href="sede.php">NOSOTROS</a>
             <a href="historia.php" >HISTORIA</a>
