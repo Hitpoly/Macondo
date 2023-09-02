@@ -1,6 +1,6 @@
 
 .banner {
-    background-image: url("../../../public/images/fondobanner.jpg");
+    background-image: url("/images/fondobanner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
@@ -264,7 +264,7 @@
   }
 
   .taza{
-    background-image: url("../../../public/images/tazita.png");    
+    background-image: url("/images/tazita.png");    
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

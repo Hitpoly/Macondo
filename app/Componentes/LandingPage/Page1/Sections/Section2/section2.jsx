@@ -1,4 +1,4 @@
-import styles from '../Sections/section2.module.css'
+import styles from './section2.module.css'
 import Image from 'next/image'
 
 const Nav = () =>{

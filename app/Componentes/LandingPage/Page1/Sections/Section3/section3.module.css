@@ -1,7 +1,7 @@
 
 
 .secbanner {
-  background-image: url("../../../public/images/banner2.jpg");  
+  background-image: url("/public/images/banner2.jpg");  
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -167,7 +167,7 @@
   }
 
   .taza{
-    background-image: url("../../../public/images/tazita.png");    
+    background-image: url("/images/tazita.png");    
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -326,7 +326,7 @@
 
  
  .flec{
-  background-image: url("../../../public/images/flecha.png");    
+  background-image: url("/images/flecha.png");    
   background-position: center;
   width: 40px;
   margin: auto;
