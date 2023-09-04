@@ -1,26 +1,5 @@
 
 
-.secbanner {
-  background-image: url("/public/images/banner2.jpg");  
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 65vh;
-  display: flex;
-  
-  flex-direction: column;
-  position: relative;
-  justify-content: center;
-    align-items: center;
-    
-}
-
-.secbanner::after {
-  position: absolute;
-  content: "";
-  inset:0;  
-  
-}  
 
   
   .button {
@@ -166,273 +145,93 @@
     z-index: 3;
   }
 
-  .taza{
-    background-image: url("/images/tazita.png");    
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 0.5vw;
-    width: 7.5%;    
-    height: 19vh;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 5vw;
-    left: 37vw;
-    z-index: 100;
-}
-
-.secbanner h6 {
-  color: #ffffff;
-  text-align: left;    
-  display: block;
-  margin-left: -2.5vw;
-  margin-top: 1.3vw;
-  width: 90%;  
-  font-family: "Montserrat  Bold";    
-  font-size: 2.34vw;
   
-  z-index: 200;
- }
- .secbanner h5 {
-  color: #ffffff;
-  text-align: left;
-  display: block;
-  margin-left: -2.5vw;    
-  font-weight: bold;  
-  width: 90%; 
-  font-family: "Montserrat  Bold";    
-  font-size: 4.27vw;
-  z-index: 200;
-  margin-block-start: 0em;
-    margin-block-end: 0em;
- }
-
- .negrita{
-  font-weight: bold;
-  
-}
-
-.buttonhome {   
-        
-  margin-left: -66vw;
-  border: none;
+ .blqsedetres{
   background-color: #E3AB84;
-  color: #000000;
-  width: 25vw;
-  padding: 10px 32px;
-  border-radius: 2vw;
-  margin-top: -4vw;
-  text-align: center;
-  text-decoration: none;   
-  font-size: 1.17vw; 
-  font-family: "Montserrat  Regular";     
-  cursor: pointer;
-  z-index: 3;
-
- 
-}
-
-
-.padreslice{
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-  padding-top: 2vw;
   width: 100%;
-  height: 60vh;
-  margin-bottom: 2vw;
-}
-
-.padreslice > div {
-  width: 50%;
-  padding: 30px;
+  height: 120vh;
+    
+  display: flex;  
+  position: relative;
  }
 
-
- .slice1 h1{
+.titulocaftres{
   font-family: "Montserrat  Regular";
-  color: #000000;    
- }
- .slice2 h1{
-  font-family: "Montserrat  Regular";    
- }
- .slice3 h1{
-  font-family: "Montserrat  Regular";    
+  font-size: 2.64vw;
+  width: 80%;
  }
 
- .slice1 span {
-  color: #000000;    
-  text-align: center;
-  display: block;
-  margin-left: 2vw;
-  margin-top: 3vw;
-  width: 90%;
-  font-family: "Montserrat  Regular";
-  font-size: 1.4vw;           
-  z-index: 200;
+.parrafcafetres{
+  font-family: "Montserrat  Regular";  
+  font-size: 1vw;
+  width: 80%;
  }
- .slice2 span {
-  color: #000000;    
-  text-align: center;
-  display: block;
-  margin-left: 2vw;
-  margin-top: 3vw;
-  width: 90%;
-  font-family: "Montserrat  Regular"; 
-  font-size: 1.4vw;       
-  z-index: 200;
- }
- .slice3 span {
-  color: #000000;    
-  text-align: center;
-  display: block;
-  margin-left: 2vw;
-  margin-top: 3vw;
-  width: 90%;
-  font-family: "Montserrat  Regular";    
-  font-size: 1.4vw;
-  z-index: 200;
+
+ .parrafcafeinftres{
+  font-family: "Montserrat  Regular";  
+  font-size: 1vw;
+  width: 80%;
  }
 
 
- .padreslicedos{
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;    
-  padding-top: 2vw;
-  width: 100%;
-  height: 75vh;   
-}
-.padreslicedos h1 {
-  color: #000000;    
-  text-align: center;
-  width: 100%;
-  padding-top: 3vw;
-  font-size: 2.5vw;
-  z-index: 200;
- }
-.padreslicedos > div {
-  width: 50%;
-  margin:auto;    
- }
-
- .txt1{
-  color: #ffffff;
-  position: relative;
-  top: 1vw;
-  left: 3vw;
- }
-
- 
- .flec{
-  background-image: url("/images/flecha.png");    
-  background-position: center;
-  width: 40px;
-  margin: auto;
-  height: 20px;
-  display: flex; 
-  z-index: 2;
- }
- 
- div.slice1{
-  background-color:#DCDCDC;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 60vh;
-  display: flex;
-  border-radius: 0 5vw 0 5vw;
-  flex-direction: column;
-  position: relative;
-   
-}
-
-div.slice1::after {
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  z-index:1;   
-  border-radius: 0 5vw 0 5vw;
-}
-
-
-div.slice2{
-  background-color:#DCDCDC;    
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 60vh;
-  display: flex;
-  border-radius: 0 5vw 0 5vw;
-  flex-direction: column;
-  position: relative;
+ .columrighttres{
+background-color: #000000;
+  margin-left: 54vw;  
+  margin-top: -50vw;
+  justify-content: center;  
+  align-self: center;  
+  width: 45%;
   
 }
 
-div.slice2::after {
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  z-index:1;    
-  border-radius: 0 5vw 0 5vw;
-}
 
-
-
-div.slice3{
-  background-color:#DCDCDC;
+.imgsupatresne{  
+  background-image: url("/images/procesados.jpg");   
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: 60vh;
+  width: 80%;
+  height: 44vh;
+  border-radius: 0 5vw 0 5vw;
+  margin: 1.7vw 0 2vw 0vw;
   display: flex;
-  border-radius: 0 5vw 0 5vw;    
   flex-direction: column;
   position: relative;
- 
 }
 
-div.slice3::after {
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  z-index:1;    
+
+.imgsupatresne{  
+  background-image: url("/images/procesados.jpg");     
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 44vh;
   border-radius: 0 5vw 0 5vw;
+  margin: 1.7vw 0 2vw 0vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-.flexitem{
-  flex-grow: 2;
+
+.columlefttres{
+  width: calc(100% - 120px);
+  margin-top: 6vw;
+  margin-left: 8vw;
+   
+  align-self: center;
+  
 }
 
-.padreslicedos h1 {
-  color: #000000;    
-  text-align: center;
-  width: 100%;
-  padding-top: 3vw;
-  font-size: 2.5vw;
-  z-index: 200;
- }
-.padreslicedos > div {
-  width: 50%;
-  margin:auto;    
- }
 
- .padreslice h1 {
-  color: #000000;
-
-  text-align: center;
-  width: 100%;
-  padding-top: 3vw;
-  font-size: 2.5vw;
-  z-index: 200;
- }
+.imgsupatres{
+  background-image: url("/images/proceso.jpg");       
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 44vh;
+  border-radius: 0 5vw 0 5vw;
+  margin: 1.7vw 0 2vw 4vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
