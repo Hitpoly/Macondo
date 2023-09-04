@@ -14,7 +14,7 @@ const Nav = () => {
           {/* Usar Link en lugar de <a> para la navegación interna */}
           <Link href="/">INICIO</Link>
           <Link href="/Componentes/LandingPage/Page1">NOSOTROS</Link>
-          <Link href="/historia">HISTORIA</Link>
+          <Link href="/Componentes/LandingPage/Page2">HISTORIA</Link>
           <Link href="/cafes">CAFÉS</Link>
           <Link href="/tienda">TIENDA</Link>
           <Link href="/contacto">CONTACTO</Link>
