@@ -2,6 +2,7 @@ import styles from './navStyle.module.css'
 import Image from 'next/image'
 import Link from 'next/link' // Importa el componente Link de Next.js
 
+
 import React from "react";
 
 const Nav = () => {
