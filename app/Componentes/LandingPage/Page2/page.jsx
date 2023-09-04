@@ -6,7 +6,7 @@ import Section3 from './Sections/Section3/section3'
 import Footer from '../Footer/Footer'
 
 
-const Home = () => {
+const Nosotros = () => {
 
   return (
     <div>   
