@@ -6,9 +6,9 @@ import Home from './Page1/page'
 const LandingPage = () => {
 
   return (
-    <div>   
-      <Home/>
-    </div>
+      <div>
+        <Home/>
+      </div>
   )
 }
 
